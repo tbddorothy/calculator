@@ -17,7 +17,7 @@ app.use(function(req, res, next) {
     }
   });
 
-app.use(express.static(__dirname + '/dist/'));
+app.use(express.static(__dirname + '/dist/calculator'));
 
 app.get('/*', function(req,res) {
     
